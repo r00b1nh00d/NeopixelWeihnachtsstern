@@ -48,9 +48,14 @@ Ich habe für meine Stern 60 LED's benötigt.
 let Stern = neopixel.create(DigitalPin.P1, 60, NeoPixelMode.RGB)
 
 ``` 
+
 ## Schritt 2
+Für meinen Stern wollte ich die meisten LED's rot leuchten lassen und nur ein Paar grün. <br>
+Das ganze sollte sich dann dauerhaft drehen.<br>
+Dazu habe ich die LED's mit einer Schleife rot gefärbt und die restlichen grün.
+**Hinweis** Wenn du eine Veränderung am Neupixel anzeigen möchtest brauchst du auch immer den Block "show".
 
-
+```block
 let Stern = neopixel.create(DigitalPin.P1, 12, NeoPixelMode.RGB)
 for (let Index = 0; Index <= 9; Index++) {
     Stern.setPixelColor(Index, neopixel.colors(NeoPixelColors.Red))
@@ -58,41 +63,16 @@ for (let Index = 0; Index <= 9; Index++) {
 Stern.setPixelColor(10, neopixel.colors(NeoPixelColors.Green))
 Stern.setPixelColor(11, neopixel.colors(NeoPixelColors.Green))
 Stern.show()
+```
+
+
+## Schritt 3
+Um jetzt noch alles drehen zu lassen einfach den Block rotiere und eine kurze Pause in den Dauerhaft Block. **und nicht den Block "show" vergessen**
+```blocks
 basic.forever(function () {
     Stern.rotate(1)
     Stern.show()
     basic.pause(50)
 })
+```
 
-
-
-> Diese Seite bei [https://r00b1nh00d.github.io/neopixelweihnachtsstern/](https://r00b1nh00d.github.io/neopixelweihnachtsstern/) öffnen
-
-## Als Erweiterung verwenden
-
-Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
-
-* öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
-* klicke auf **Neues Projekt**
-* klicke auf **Erweiterungen** unter dem Zahnrad-Menü
-* nach **https://github.com/r00b1nh00d/neopixelweihnachtsstern** suchen und importieren
-
-## Dieses Projekt bearbeiten ![Build Status Abzeichen](https://github.com/r00b1nh00d/neopixelweihnachtsstern/workflows/MakeCode/badge.svg)
-
-Um dieses Repository in MakeCode zu bearbeiten.
-
-* öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
-* klicke auf **Importieren** und dann auf **Importiere URL**
-* füge **https://github.com/r00b1nh00d/neopixelweihnachtsstern** ein und klicke auf Importieren
-
-## Blockvorschau
-
-Dieses Bild zeigt den Blockcode vom letzten Commit im Master an.
-Die Aktualisierung dieses Bildes kann einige Minuten dauern.
-
-![Eine gerenderte Ansicht der Blöcke](https://github.com/r00b1nh00d/neopixelweihnachtsstern/raw/master/.github/makecode/blocks.png)
-
-#### Metadaten (verwendet für Suche, Rendering)
-
-* for PXT/calliopemini
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
