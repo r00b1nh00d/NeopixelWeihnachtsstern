@@ -1,0 +1,21 @@
+{
+    "name": "Weihnachtsstern",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "neopixel-bluetoothallowed": "github:laboratoryforplayfulcomputation/pxt-neopixel-bluetoothallowed#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "tsprj"
+}
