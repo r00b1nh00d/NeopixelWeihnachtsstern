@@ -6,6 +6,7 @@ Diese LED's findest du entweder unter dem Namen [Neopixel](https://www.google.co
 
 ## ~ @unplugged
 Um einen Stern mit 5 Spitzen zu basteln habe ich einfach 10 Streifen mit der Schere von meinem 5m Band abgeschnitten. Du kannst den Streifen immer in der Mitte der Kupferkontakte Zerschneiden. <br>
+**Hinweis** um weniger LED-Band nutzen zu müssen kannst du auch einen Stern Mit 4 Spitzen und 4 LED's pro Streifen bauen. <br>
 ![BildZerschneiden](https://github.com/r00b1nh00d/NeopixelWeihnachtsstern/blob/master/StreifenSchneiden.jpeg?=true)
 
 ## ~ @unplugged
