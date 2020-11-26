@@ -21,7 +21,7 @@ Falls du dir noch unsicher beim Löten bist frag am besten deine Eltern oder Leh
 
 
 ## ~ @unplugged
-Um deinen selbst gebauten Weihnachtsstern an den Calliope anzuschließen kannst du entweder drei kleine Stifte anlöten an die du dann sogenannte Jumperkabel anstecken kannst oder du lötest einfach direkt drei Kabel an. <br>
+Um deinen selbst gebauten Weihnachtsstern an den Calliope anzuschließen kannst du entweder drei kleine Stifte anlöten an die du dann sogenannte Jumperkabel anstecken kannst oder du lötest einfach direkt drei Kabel an eine der Ecken. <br>
 Ich habe einfach drei dünnere Kabel genommen: <br>
 - für den + Pol habe ich ein rotes Kabel <br>
 - für den - Pol habe ich ein schwarzes Kabel <br>
