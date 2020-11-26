@@ -26,8 +26,8 @@ Ich habe einfach drei dünnere Kabel genommen: <br>
 - für den + Pol habe ich ein rotes Kabel <br>
 - für den - Pol habe ich ein schwarzes Kabel <br>
 und für das Signal "Din" habe ich ein gelbes Kabel verwendet. <br>
-Die anderen Enden habe ich einfach ein Stück weit abisoliert und ganz leicht mit Lötzinn überzogen, so drehen sie sich nicht von alleine auf und ich kann sie später ganz einfach um die Kontakte (goldenen Kreise) am Calliope wickeln. 
-[Bild Kabel]
+Die anderen Enden habe ich einfach ein Stück weit abisoliert und ganz leicht mit Lötzinn überzogen, so drehen sie sich nicht von alleine auf und ich kann sie später ganz einfach um die Kontakte (goldenen Kreise) am Calliope wickeln. <br>
+![Bild Kabel](https://github.com/r00b1nh00d/NeopixelWeihnachtsstern/blob/master/Kabel.jpg?=true)
 
 
 ## ~ @unplugged
@@ -36,7 +36,7 @@ Jetzt noch die Kabel an den Calliope anschließen.<br>
 - minus(GND) also das schwarze Kabel an minus (-) vom Calliope anschließen <br>
 und Das gelbe Signalkabel (Din) an den Pin 1 (1) vom Calliope anschließen <br>
 
-[bild Anschlüsse]
+![bild Anschlüsse](https://github.com/r00b1nh00d/NeopixelWeihnachtsstern/blob/master/Anschluss.jpg?=true)
 
 ## ~ @unplugged
 Jetzt kommen wir zur Programmierung. Ich zeige dir hier ein kleines Beispiel aber du kannst anschließend deine eigene Animation Programmieren, welche mit Sicherheit noch besser aussieht.
