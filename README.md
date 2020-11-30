@@ -43,7 +43,7 @@ Jetzt musst du noch die Kabel an den Calliope anschließen. Dazu kannst du die K
 Jetzt kommen wir zur Programmierung. Ich zeige dir hier ein kleines Beispiel, aber du kannst anschließend deine eigene Animation programmieren, welche mit Sicherheit noch besser aussieht.
 
 ## Schritt 1
-``||basic: beim Start||`` musst du dem Calliope sagen, wo du die LED-Streifen angeschlossen hast. Erstelle dazu eine Variable ``||variables: Stern||``.Speichere dies, indem du den Block "Neopixel at Pin P0 With 24 Leds" in den Block ``||variables: setze auf|`` schiebst. Hier stellst du ein, dass der Neopixel am Pin P1 angeschlossen ist und wie viele LED's du für deinen Stern benutzt hast. <br>
+``||basic: beim Start||`` musst du dem Calliope sagen, wo du die LED-Streifen angeschlossen hast. Erstelle dazu eine Variable ``||variables: Stern||``.Speichere dies, indem du den Block ``||neopixel.strip:Neopixel at Pin P0 With 24 Leds||`` in den Block ``||variables: setze auf|`` schiebst. Hier stellst du ein, dass der Neopixel am Pin P1 angeschlossen ist und wie viele LED's du für deinen Stern benutzt hast. <br>
 Das hintere Feld mit dem RGB-Format ist erstmal uninteressant (du brauchst es nur, sollten bei deinen LED's die Farben vertauscht sein, z.B. grün leuchten, aber rot programmiert sein) <br>
 Ich habe für meinen Stern 60 LED's benötigt.
 ```blocks
@@ -56,7 +56,7 @@ Für meinen Stern wollte ich die meisten LED's rot leuchten lassen und nur ein p
 Das ganze sollte sich dann dauerhaft drehen.<br>
 Dazu habe ich die LED's mit einer Schleife rot gefärbt und die restlichen 
 LED's grün.
-**Hinweis:** Wenn du eine Veränderung am Neopixel anzeigen möchtest, brauchst du auch immer den Block "anzeigen"
+**Hinweis:** Wenn du eine Veränderung am Neopixel anzeigen möchtest, brauchst du auch immer den Block ``||neopixel.strip:anzeigen||``
 
 ```block
 let Stern = neopixel.create(DigitalPin.P1, 12, NeoPixelMode.RGB)
@@ -70,7 +70,7 @@ Stern.show()
 
 
 ## Schritt 3
-Um jetzt noch alles drehen zu lassen, schiebe einfach den Block ``||  :rotiere||'', den Block ``||basic:pausiere||`` und den Block ``||   :anzeigen||`` in die Dauerhaft-Schleife.
+Um jetzt noch alles drehen zu lassen, schiebe einfach den Block ``||neopixel.strip:rotiere||'', den Block ``||basic:pausiere||`` und den Block ``||neopixel.strip:anzeigen||`` in die Dauerhaft-Schleife.
 
 ```blocks
 basic.forever(function () {
