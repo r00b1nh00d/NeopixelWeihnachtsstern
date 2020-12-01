@@ -70,7 +70,7 @@ Stern.show()
 
 
 ## Schritt 3
-Um jetzt noch alles drehen zu lassen, schiebe einfach den Block ``||neopixel.strip:rotiere||'', den Block ``||basic:pausiere||`` und den Block ``||neopixel.strip:anzeigen||`` in die Dauerhaft-Schleife.
+Um jetzt noch alles drehen zu lassen, schiebe einfach den Block ``||neopixel.strip:rotiere||``, den Block ``||basic:pausiere||`` und den Block ``||neopixel.strip:anzeigen||`` in die Dauerhaft-Schleife.
 
 ```blocks
 basic.forever(function () {
