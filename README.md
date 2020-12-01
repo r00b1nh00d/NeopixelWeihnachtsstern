@@ -27,7 +27,7 @@ Ich habe einfach drei dünnere Kabel genommen: <br>
 - für den + Pol habe ich ein rotes Kabel, <br>
 - für den - Pol habe ich ein schwarzes Kabel, <br>
 - für das Signal "Din" habe ich ein gelbes Kabel verwendet. <br>
-An den anderen Enden habe ich ca. 2cm der Plastikisolierung entfernt und leicht mit Lötzinn überzogen. Somit drehen sie sich nicht von alleine auf und ich kann sie später ganz einfach um die Kontakte (goldenen Kreise) am Calliope wickeln. <br>
+An den anderen Enden habe ich ca. 2cm der Plastikisolierung entfernt und die Drahtenden leicht mit Lötzinn überzogen. Somit drehen sie sich nicht von alleine auf und ich kann sie später ganz einfach um die Kontakte (goldenen Kreise) am Calliope wickeln. <br>
 ![Bild Kabel](https://github.com/r00b1nh00d/NeopixelWeihnachtsstern/blob/master/Kabel.jpg?raw=true)
 
 
