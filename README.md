@@ -70,7 +70,8 @@ Stern.show()
 
 
 ## Schritt 3
-Um jetzt noch alles drehen zu lassen, schiebe einfach den Block ``||neopixel.strip:rotiere||``, den Block ``||basic:pausiere||`` und den Block ``||neopixel.strip:anzeigen||`` in die Dauerhaft-Schleife.
+Um jetzt noch alles drehen zu lassen, schiebe einfach den Block ``||neopixel.strip:rotiere||``, den Block ``||basic:pausiere||`` und den Block ``||neopixel.strip:anzeigen||`` in die Dauerhaft-Schleife. <br>
+**Falls dir der Block zum rotieren noch nicht angezeigt wird kannst du auf "Fertigstellen" klicken, in der folgenden Ansicht sind dieser und weitere Blöcke dann auch verfügbar. Z.B. kannst du dann auch den Stern einfach in allen Regenbogenfarben leuchten lassen, wie es am Anfang dieses Tutorials gezeigt wurde**
 
 ```blocks
 let Stern = neopixel.create(DigitalPin.P1, 60, NeoPixelMode.RGB)
